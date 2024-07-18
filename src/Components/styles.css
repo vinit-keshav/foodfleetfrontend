@@ -1,0 +1,113 @@
+/* Add a blurred effect when the game is displayed */
+.blurred {
+  filter: blur(5px);
+  transition: filter 0.3s; /* Optional: Add a smooth transition to the blur effect */
+}
+
+/* Styles for the game overlay */
+.game-overlay {
+  z-index: 1050; /* Higher than bootstrap modal */
+}
+
+/* Gradient background */
+.bg-gradient {
+  background: linear-gradient(135deg, rgba(32,58,94,1) 0%, rgba(39,99,168,1) 35%, rgba(36,72,118,1) 100%);
+}
+
+/* Welcome message styling */
+.welcome-message h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.welcome-message p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Hover effect for the boxes */
+.col-6:hover .bg-primary,
+.col-6:hover .bg-success,
+.col-6:hover .bg-warning,
+.col-6:hover .bg-danger {
+  transform: scale(0.9); /* Shrink the size of the box */
+  transition: transform 0.3s; /* Add a smooth transition to the transform effect */
+}
+
+.welcome-message {
+  margin-top: -30px; /* Adjust this value as needed */
+}
+
+.background-container {
+  position: relative;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  background-image: url('adminhome2.svg');
+  background-size: 100%; /* Adjust the size as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 20px; /* Space between the background image and the welcome message */
+}
+
+.custom-box {
+  border-radius: 50%;
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px; /* Adjust the height as needed */
+  width: 150px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the circular boxes */
+  text-align: center;
+  transition: transform 0.3s ease; /* Add a transition for smooth scaling */
+}
+
+.custom-box:hover {
+  text-decoration: none; /* Ensure no underline on hover */
+  transform: scale(0.9); /* Scale down to 90% of the original size */
+}
+
+.bg-adminhome {
+  background-image: url('admin3.svg');
+  background-size: 45%; /* Adjust the size to 50% of its original */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .custom-box {
+      height: 100px; /* Adjust the height for smaller screens */
+      width: 100px; /* Adjust the width for smaller screens */
+  }
+}
+.food-idea-container {
+  max-height: 20rem; /* Adjust the maximum height as needed */
+  max-width: 20rem; /* Adjust the maximum height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding-right: 1rem; /* Add some padding to ensure scroll bar does not overlap content */
+}
+
+.food-idea-text {
+  overflow-wrap: break-word; /* Ensure words wrap to fit container */
+}
+
+.welcome-box {
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+}
+
+.custom-box {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+

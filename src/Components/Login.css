@@ -1,0 +1,90 @@
+/* General styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f2f5;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./svgfood3.svg') no-repeat center center;
+    background-size: cover;
+}
+
+.login-form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px; /* Custom style to increase the width */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+
+
+
+.separator .text {
+    margin: 0 10px;
+    color: #666;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rotate the SVG */
+.svg-rotate {
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+
+.svg-rotate:hover {
+    transform: rotate(0deg);
+}
+
+/* Ensure full height for the flex container */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.font-cursive {
+    font-family: "Brush Script MT", cursive;
+}

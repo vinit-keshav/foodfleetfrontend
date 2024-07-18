@@ -1,0 +1,35 @@
+
+
+.footer p {
+    margin-bottom: 0; /* Remove bottom margin from paragraphs inside the footer */
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: Adds ellipsis (...) if text overflows */
+    max-width: 100%; /* Ensures the span doesn't exceed the button's width */
+}
+.hover-grow:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* styles.css */
+
+.welcome-message {
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.food-idea-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.food-idea-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

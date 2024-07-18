@@ -1,0 +1,24 @@
+/* Signup.css */
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .vh-100 {
+    height: 100vh;
+  }
+  
+  .signup-container {
+    position: relative;
+    background: url('../svgfood2.svg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
